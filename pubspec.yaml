@@ -8,13 +8,25 @@ environment:
 
 dependencies:
   avilatek_bloc:
-    path: ../../packages/avilatek_bloc
+    git:
+      ref: avilatek_bloc-0.2.0
+      url: https://github.com/Avila-Tek/flutter_common_lib.git
+      path: packages/avilatek_bloc
   avilatek_core:
-    path: ../../packages/avilatek_core
+    git:
+      ref: avilatek_core-0.2.0
+      url: https://github.com/Avila-Tek/flutter_common_lib.git
+      path: packages/avilatek_core
   avilatek_test:
-    path: ../../packages/avilatek_test
+    git:
+      ref: avilatek_test-0.1.0
+      url: https://github.com/Avila-Tek/flutter_common_lib.git
+      path: packages/avilatek_test
   avilatek_ui:
-    path: ../../packages/avilatek_ui
+    git:
+      ref: avilatek_ui-0.1.0
+      url: https://github.com/Avila-Tek/flutter_common_lib.git
+      path: packages/avilatek_ui
   bloc: ^8.1.2
   bloc_concurrency: ^0.2.5
   cached_network_image: ^3.3.1

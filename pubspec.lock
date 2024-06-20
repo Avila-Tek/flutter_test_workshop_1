@@ -36,30 +36,38 @@ packages:
   avilatek_bloc:
     dependency: "direct main"
     description:
-      path: "../../packages/avilatek_bloc"
-      relative: true
-    source: path
+      path: "packages/avilatek_bloc"
+      ref: "avilatek_bloc-0.2.0"
+      resolved-ref: b8ea5d4ab02f6b7ae7ea58819826bfaac20e2da7
+      url: "https://github.com/Avila-Tek/flutter_common_lib.git"
+    source: git
     version: "0.2.0"
   avilatek_core:
     dependency: "direct main"
     description:
-      path: "../../packages/avilatek_core"
-      relative: true
-    source: path
+      path: "packages/avilatek_core"
+      ref: "avilatek_core-0.2.0"
+      resolved-ref: b8ea5d4ab02f6b7ae7ea58819826bfaac20e2da7
+      url: "https://github.com/Avila-Tek/flutter_common_lib.git"
+    source: git
     version: "0.2.0"
   avilatek_test:
     dependency: "direct main"
     description:
-      path: "../../packages/avilatek_test"
-      relative: true
-    source: path
+      path: "packages/avilatek_test"
+      ref: "avilatek_test-0.1.0"
+      resolved-ref: b8ea5d4ab02f6b7ae7ea58819826bfaac20e2da7
+      url: "https://github.com/Avila-Tek/flutter_common_lib.git"
+    source: git
     version: "0.1.0+1"
   avilatek_ui:
     dependency: "direct main"
     description:
-      path: "../../packages/avilatek_ui"
-      relative: true
-    source: path
+      path: "packages/avilatek_ui"
+      ref: "avilatek_ui-0.1.0"
+      resolved-ref: b8ea5d4ab02f6b7ae7ea58819826bfaac20e2da7
+      url: "https://github.com/Avila-Tek/flutter_common_lib.git"
+    source: git
     version: "0.1.0+1"
   bloc:
     dependency: "direct main"
